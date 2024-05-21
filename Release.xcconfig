@@ -1,0 +1,13 @@
+//
+//  Release.xcconfig
+//  BaseProject
+//
+//  Created by Ritesh Sinha on 20/05/24.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+// Release.xcconfig
+BASE_API_URL = api.example.com
+API_KEY = prod-api-key

@@ -1,0 +1,13 @@
+//
+//  Staging.xcconfig
+//  BaseProject
+//
+//  Created by Ritesh Sinha on 20/05/24.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+// Staging.xcconfig
+BASE_API_URL = api.staging.example.com
+API_KEY = staging-api-key
