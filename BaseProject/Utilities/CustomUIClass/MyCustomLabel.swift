@@ -69,7 +69,7 @@ class MyOutfitLabelMedium22ThemeColor: UILabel {
         super.awakeFromNib()
 //        text = text?.localized
         font = UIFont(name:"Outfit-Medium",size:22)
-        textColor = AppColors.header_ThemeColor
+//        textColor = AppColors.header_ThemeColor
     }
 }
 

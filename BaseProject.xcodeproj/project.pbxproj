@@ -39,6 +39,8 @@
 		71A2814E2BFC735E002F1557 /* MyCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A2814D2BFC735E002F1557 /* MyCustomButton.swift */; };
 		71A281502BFC73CD002F1557 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A2814F2BFC73CD002F1557 /* Font.swift */; };
 		71A281522BFC746D002F1557 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A281512BFC746D002F1557 /* AppColors.swift */; };
+		71ECB06E2C076A3300E042EF /* DeeplinkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71ECB06D2C076A3300E042EF /* DeeplinkManager.swift */; };
+		71ECB0702C076A6F00E042EF /* Screen1Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71ECB06F2C076A6F00E042EF /* Screen1Model.swift */; };
 		F4D04F04AA14A40C2653DC90 /* Pods_BaseProject_BaseProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223E54756418A09218B5A0DA /* Pods_BaseProject_BaseProjectUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -101,6 +103,8 @@
 		71A2814D2BFC735E002F1557 /* MyCustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomButton.swift; sourceTree = "<group>"; };
 		71A2814F2BFC73CD002F1557 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		71A281512BFC746D002F1557 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		71ECB06D2C076A3300E042EF /* DeeplinkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeeplinkManager.swift; sourceTree = "<group>"; };
+		71ECB06F2C076A6F00E042EF /* Screen1Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen1Model.swift; sourceTree = "<group>"; };
 		74784788C845AB77D77E190F /* Pods-BaseProject-BaseProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject-BaseProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-BaseProject-BaseProjectUITests/Pods-BaseProject-BaseProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
 		79B4793AFAD893DDE18772EB /* Pods-BaseProject-BaseProjectUITests.release (stage).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject-BaseProjectUITests.release (stage).xcconfig"; path = "Target Support Files/Pods-BaseProject-BaseProjectUITests/Pods-BaseProject-BaseProjectUITests.release (stage).xcconfig"; sourceTree = "<group>"; };
 		7C9A8D6871A69C0AFE0DF15A /* Pods_BaseProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -304,6 +308,7 @@
 		71A2813F2BFB69D3002F1557 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				71ECB06D2C076A3300E042EF /* DeeplinkManager.swift */,
 				71A281162BF9EE44002F1557 /* UpdateManager.swift */,
 				71A281392BFB2319002F1557 /* Environment.swift */,
 				71A2813B2BFB520C002F1557 /* AnalyticsManager.swift */,
@@ -349,6 +354,7 @@
 		71A281442BFB8435002F1557 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				71ECB06F2C076A6F00E042EF /* Screen1Model.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -657,6 +663,7 @@
 				71A2814C2BFC7351002F1557 /* MyCustomLabel.swift in Sources */,
 				71A281122BF9EC99002F1557 /* Date+Extensions.swift in Sources */,
 				71A281502BFC73CD002F1557 /* Font.swift in Sources */,
+				71ECB0702C076A6F00E042EF /* Screen1Model.swift in Sources */,
 				71A2810C2BF9EAF4002F1557 /* String+Extensions.swift in Sources */,
 				71A281172BF9EE44002F1557 /* UpdateManager.swift in Sources */,
 				71A281072BF774F9002F1557 /* Services.swift in Sources */,
@@ -665,6 +672,7 @@
 				71A281522BFC746D002F1557 /* AppColors.swift in Sources */,
 				71A280D22BF7509E002F1557 /* SceneDelegate.swift in Sources */,
 				71A281102BF9EB16002F1557 /* UIView+Extensions.swift in Sources */,
+				71ECB06E2C076A3300E042EF /* DeeplinkManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -945,7 +953,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FC882D6287D89FE85484658F /* Pods-BaseProject-BaseProjectUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WBA6AUV6JV;
@@ -964,7 +972,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 74784788C845AB77D77E190F /* Pods-BaseProject-BaseProjectUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WBA6AUV6JV;
@@ -1098,7 +1106,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 61657BCC8BD44619E10EEE11 /* Pods-BaseProject-BaseProjectUITests.debug (dev).xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WBA6AUV6JV;
@@ -1232,7 +1240,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 137041F1F677813097A0C9DF /* Pods-BaseProject-BaseProjectUITests.debug (stage).xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WBA6AUV6JV;
@@ -1366,7 +1374,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F8C84A705A224251D62BD55D /* Pods-BaseProject-BaseProjectUITests.debug (prod).xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WBA6AUV6JV;
@@ -1493,7 +1501,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3552917DA0683641899FC98C /* Pods-BaseProject-BaseProjectUITests.release (dev).xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WBA6AUV6JV;
@@ -1620,7 +1628,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 79B4793AFAD893DDE18772EB /* Pods-BaseProject-BaseProjectUITests.release (stage).xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WBA6AUV6JV;
@@ -1747,7 +1755,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 39C9BC7F0D2F0307CC63BE04 /* Pods-BaseProject-BaseProjectUITests.release (prod).xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WBA6AUV6JV;

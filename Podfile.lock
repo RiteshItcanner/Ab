@@ -46,6 +46,8 @@ PODS:
     - GoogleUtilities/Environment (~> 7.8)
     - nanopb (< 2.30911.0, >= 2.30908.0)
     - PromisesObjC (~> 2.1)
+  - FirebaseDynamicLinks (10.25.0):
+    - FirebaseCore (~> 10.0)
   - FirebaseInstallations (10.25.0):
     - FirebaseCore (~> 10.0)
     - GoogleUtilities/Environment (~> 7.8)
@@ -143,6 +145,7 @@ DEPENDENCIES:
   - Firebase/Core
   - Firebase/Crashlytics
   - Firebase/Messaging
+  - FirebaseDynamicLinks
   - IQKeyboardManagerSwift
   - ReachabilitySwift
   - SDWebImage
@@ -158,6 +161,7 @@ SPEC REPOS:
     - FirebaseCoreExtension
     - FirebaseCoreInternal
     - FirebaseCrashlytics
+    - FirebaseDynamicLinks
     - FirebaseInstallations
     - FirebaseMessaging
     - FirebaseRemoteConfigInterop
@@ -182,6 +186,7 @@ SPEC CHECKSUMS:
   FirebaseCoreExtension: 8a47811d0b155501559ef05d089518152a0a1677
   FirebaseCoreInternal: 910a81992c33715fec9263ca7381d59ab3a750b7
   FirebaseCrashlytics: 4b96efb0ce73b38b2a85e8b8bd1bd8f63f09d015
+  FirebaseDynamicLinks: 12c9f5b643943e0565ed28080373f89cbcb914a3
   FirebaseInstallations: 91950fe859846fff0fbd296180909dd273103b09
   FirebaseMessaging: 88950ba9485052891ebe26f6c43a52bb62248952
   FirebaseRemoteConfigInterop: b25018791b204c0d78a90e394d6c62d9b1f22da8
@@ -198,6 +203,6 @@ SPEC CHECKSUMS:
   SGCodeTextField: 6b65291a52a092c24bd08cc32873e024223b2371
   SwiftyJSON: f5b1bf1cd8dd53cd25887ac0eabcfd92301c6a5a
 
-PODFILE CHECKSUM: 6d13d090f8f8488eb03961466411d02a8d8f458b
+PODFILE CHECKSUM: d8253b462ea9fb349bbdae84c360c6b298bb4b04
 
 COCOAPODS: 1.15.2

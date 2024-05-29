@@ -14,6 +14,7 @@ target 'BaseProject' do
   pod 'Firebase/Core'
   pod 'Firebase/Messaging'
   pod 'Firebase/Crashlytics'
+  pod 'FirebaseDynamicLinks'
   pod 'SDWebImage'
 
   target 'BaseProjectTests' do
