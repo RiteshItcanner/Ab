@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:BaseProject.xcodeproj">
+      location = "group:/Users/ritesh/Desktop/Ab/boilerplate-ios-app/Ab.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
